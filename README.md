@@ -107,6 +107,7 @@ Assumption 1: price stays fixed at rebase, i.e. it doesn’t systematically or p
 Imagine you are at the instant right before a rebase and you have X staked SPA tokens. Suppose token supply is set to expand by a factor of k>1.
 
 Value from redeeming before rebase: VX; Value from selling at market: Xp
+
 Value from redeeming after rebase: V/k\*Xk = VX; Value from selling at market after rebase: Xkp
 
 Thus the value of redemption is unchanged. If anything (again, this doesn’t exactly square with a no-arbitrage world), redemption might be in-the-money before the rebase, but an agent might wait to just sell on market after the rebase.
@@ -115,6 +116,7 @@ Thus the value of redemption is unchanged. If anything (again, this doesn’t ex
 Assumption 2: price systematically drops (e.g. by the factor of 1/k) at rebase.
 
 Value from redeeming before rebase: VX; Value from selling at market: Xp
+
 Value from redeeming after rebase: Vk\*X/k=VX; Value from selling at market after rebase: Xk\*p/k=Xp
 
 So the calculus is identical before and after. The value of redemption is unchanged.
