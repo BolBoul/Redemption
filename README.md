@@ -196,7 +196,7 @@ The above arguments also apply to proposals considering arbitrary fractions of R
 
 If buyers have similar rates of time preference, this achieves nothing. If not, this is a way to screen relatively more impatient buyers (or arbitrageurs). If buyers are not capital constrained relative to the $2-4m in question, this will also achieve nothing: the most patient buyers will borrow and bid up the price to the final redemption value (minus some small risk premium) and wait. If buyers are very capital constrained relative to the $2-4m in question, we’ll see some “early” redemptions from relatively more impatient arbitrageurs who’d rather not keep holding. The existence of Spartacadabra and the size of some investors make me think this really doesn’t make a difference.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **13\. How about a mechanism where redemption value (RV) is interpolated between RFV (or standalone value) and prevailing market price, i.e. RV(t) = c\*min(p(t), SV(t)) + (1-c)\*SV(t), with 0<c<1?**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **13\. How about a mechanism where redemption value (RV) is interpolated between RFV (or standalone value) and prevailing market price, i.e. RV(t) = (1-c)\*min(p(t), SV(t)) + c\*SV(t), with 0<c<1?**
 
 
 First and foremost, note that the mechanism is to be ongoing.  So we cannot fix a particular “snapshot in time” RFV or SV per token as a one-off.  This is why all quantities are indexed by the relevant time t.
